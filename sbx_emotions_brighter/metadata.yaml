@@ -10,7 +10,7 @@ task: "multi-class emotion classification"
 plugin_url: https://github.com/spraakbanken/sparv-sbx-emotions-brighter
 analysis_unit: "sentence"
 models:
-  url: https://huggingface.co/sbx/KB-bert-base-swedish-cased_emotions_brighter
+  - url: https://huggingface.co/sbx/KB-bert-base-swedish-cased_emotions_brighter
 license: "MIT license"
 annotations:
   - <sentence>:sbx_emotions_brighter.emotion
