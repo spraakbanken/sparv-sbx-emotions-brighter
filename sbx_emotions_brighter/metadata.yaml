@@ -1,0 +1,33 @@
+id: "sbx-swe-emotions-brighter"
+description:
+  swe: "En Sparv-plugin för klassificering av känslor på meningsnivå, tränad på den svenska delen av Brigher datasetet."
+  eng: "A Sparv plugin for multi-class emotion classification on sentence-level, trained on the Swedish subset of the Brighter dataset."
+short_description:
+  swe: "En Sparv-plugin för klassificering av känslor på meningsnivå."
+  eng: "A Sparv plugin for multi-class emotion classification on sentence-level."
+type: "analysis"
+task: "Multi-class emotion classification"
+plugin_url: https://github.com/spraakbanken/sparv-sbx-emotions-brighter
+analysis_unit: "sentence"
+models:
+  url: https://huggingface.co/sbx/KB-bert-base-swedish-cased_emotions_brighter
+license: "MIT license"
+annotations:
+  - <sentence>:sbx_emotions_brighter.emotion
+example_output: |-
+  ```xml
+  <sentence emotion="|anger,0.96|disgust,0.96|surprise,0.38|sadness,0.19|fear,0.12|">
+    <token>Den</token>
+    <token>här</token>
+    <token>produkten</token>
+    <token>lever</token>
+    <token>inte</token>
+    <token>alls</token>
+    <token>upp</token>
+    <token>till</token>
+    <token>standard</token>
+    <token>,</token>
+    <token>skäms</token>
+    <token>!</token>
+  </sentence>
+  ```
