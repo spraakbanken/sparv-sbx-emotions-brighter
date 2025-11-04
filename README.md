@@ -30,7 +30,7 @@ sparv setup
 2. Install the plugin:
 
 ```
-sparv plugins install https://github.com/spraakbanken/spraakbanken/sparv-sbx-emotions-brighter/archive/main.zip
+sparv plugins install https://github.com/spraakbanken/sparv-sbx-emotions-brighter/archive/main.zip
 ```
 
 _In case you need to uninstall the plugin:_  
