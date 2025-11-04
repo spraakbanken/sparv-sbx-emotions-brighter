@@ -6,7 +6,7 @@ short_description:
   swe: "En Sparv-plugin för klassificering av känslor på meningsnivå."
   eng: "A Sparv plugin for multi-class emotion classification on sentence-level."
 type: "analysis"
-task: "Multi-class emotion classification"
+task: "multi-class emotion classification"
 plugin_url: https://github.com/spraakbanken/sparv-sbx-emotions-brighter
 analysis_unit: "sentence"
 models:
