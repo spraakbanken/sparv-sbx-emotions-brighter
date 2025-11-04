@@ -1,4 +1,4 @@
-id: "sbx-swe-emotions-brighter"
+id: "sbx-swe-emotions_sentence-transformers-kblab_brighter"
 description:
   swe: "En Sparv-plugin för klassificering av känslor på meningsnivå, tränad på den svenska delen av Brigher datasetet."
   eng: "A Sparv plugin for multi-class emotion classification on sentence-level, trained on the Swedish subset of the Brighter dataset."
