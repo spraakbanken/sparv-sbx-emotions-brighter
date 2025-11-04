@@ -1,0 +1,15 @@
+[project]
+name = "sparv-sbx-emotions-brighter"
+version = "0.1.0"
+description = "Annotator of sentence with multiple emotions"
+readme = "README.md"
+license.text = "MIT License"
+# authors = [
+#     { name = "Anna Lindahl", email = "anna.lindahl@svenska.gu.se" }
+# ]
+dependencies = [
+    "sparv-pipeline~=5.0",
+    "transformers>=4.51.3",
+    "torch"
+]
+entry-points."sparv.plugin" = { sbx_emotions_brighter= "sbx_emotions_brighter" }
